@@ -1,0 +1,102 @@
+.nav-bar{
+    background-color: #404F75;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.links{
+    text-align: center;
+    justify-content: center;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.first{
+    background-color: #03346E;
+    height: 100vh;
+    margin: none;
+}
+.full{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.task-div{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.first h1{
+    margin: 0px;
+}
+.task-div button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #414F77;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.task-div button:hover{
+    color: white;
+    background-color: #03346E;
+}
+.task-div:hover{
+    height: 380px;
+    width: 220px;
+    transition: 300ms ease-out;
+    box-shadow: 0 0 20px white;
+}
+.hero{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-content{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.hero-content h1{
+    font-size: 56px;
+}
+.hero-content p,h1{
+    color: #092142;
+    font-size: 24px;
+}
+.hero-img{
+    height: 500px;
+}
+.img-div img{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.img-div{
+    height: 200px;
+    
+   
+}
+.content-div{
+    height: 100px;
+    padding: 10px;
+    
+}
